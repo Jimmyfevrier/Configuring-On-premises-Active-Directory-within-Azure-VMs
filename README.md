@@ -44,11 +44,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h4> Step 2: Remote Access Vms </h4>
 
 - I remote access the VMs on my Macbook Pro using the Microsoft Remote Desktop App.
-
-  
-
-    
 </p>
+<p> <img width="609" alt="Image" src="https://github.com/user-attachments/assets/7322975d-7869-4ed5-8009-aac685afdc2e" /> </p>
 
 <p>
 [<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>](https://github.com/user-attachments/assets/5f300f6b-cdba-49c0-870e-6866cbedbb9a)
