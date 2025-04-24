@@ -65,9 +65,9 @@ Before installing the Active Directory feature make sure to check the box for au
 <p> <img src="https://github.com/user-attachments/assets/9dad16dc-e234-4b54-b605-14d11b51ecc0" </p>
 <br />
 <p>
-After logging back into the Server there will be a white flag with an Alert on it. Click on it and cick on the Promote your Domain.
+After logging back into the VM (Win 2022) on the Server Manager there will be a white flag with an Alert on it. Click on the "Promote this server into a Domain Controller".
 </p>
-<P> </P>
+<P> <img width="456" alt="Image" src="https://github.com/user-attachments/assets/d61ba61b-9d32-4111-a48d-92e0c362fc53" </P>
 <br />
 
 <p>
