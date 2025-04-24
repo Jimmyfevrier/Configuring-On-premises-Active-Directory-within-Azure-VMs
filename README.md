@@ -53,22 +53,21 @@ Note: Remember to save all passwords in a notepad or text.file </p>
 <p> <h2> Installaltion </h2></p>
 
 <p> 
- From the Server Manager I click on the Manage tool to Add Roles and Features and begone to install  the Active Dictory features as shown bellow. 
+ From the Server Manager I click on the Manage tool to Add Roles and Features and begone to install  the Active Directory features as shown below. 
  </p>
 
 <p><img src="https://github.com/user-attachments/assets/5f300f6b-cdba-49c0-870e-6866cbedbb9a"
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Before installing the Active Directory feature make sure to check the box for automatic restart after installation is completed. If the VM doesn't restart then manuelly restart the VM as shown below:
 </p>
-<br />
 
+<p> <img src="https://github.com/user-attachments/assets/9dad16dc-e234-4b54-b605-14d11b51ecc0" </p>
+<br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+After logging back into the Server there will be a white flag with an Alert on it. Click on it and cick on the Promote your Domain.
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+<P> </P>
 <br />
 
 <p>
