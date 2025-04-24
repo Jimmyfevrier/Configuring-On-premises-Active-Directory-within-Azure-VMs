@@ -24,15 +24,34 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
+- Open a VM using Windows 2022
+- Installaltion
 - Step 3
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
 
+<h3> Open a VM using Windows 2022 </h3>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <h4> Step 1: Create VMs </h4>
+  - From my Azure Subscription, I created a Resource Group. Then create a VM (Virtual Machine) with at least one VM running Windows 2022. 
+  
+  - I created 1 Vm running Window 2022 and 1 VM running Windows 10. Once I was completed Log into BOTH Windows and navigated to Windows 2022.
+
+    Note: will need at least one more VM to connect to the VM running Window 2022 (at as Domain).
+
+<h4> Step 2: Remote Access Vms </h4>
+
+- I remote access the VMs on my Macbook Pro using the Microsoft Remote Desktop App.
+
+  
+
+    
+</p>
+
+<p>
+[<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>](https://github.com/user-attachments/assets/5f300f6b-cdba-49c0-870e-6866cbedbb9a)
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
