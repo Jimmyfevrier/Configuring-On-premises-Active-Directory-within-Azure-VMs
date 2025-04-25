@@ -125,3 +125,7 @@ I logged off DC-1 VM and used one of the created Users account reenact multiple 
 
 <p> <img width="858" alt="Image" src="https://github.com/user-attachments/assets/6486662f-8f52-4d7c-9940-fdbe75baf0c1" /> </p>
 
+<p> 
+ - I also did a bit of troubleshooting by practicing how to Unlocking Users Account by going to the ADUC and right clicking My Domain (app) and select find and type in the Users name and select to unlock the account 
+ - You can also 
+</p>
