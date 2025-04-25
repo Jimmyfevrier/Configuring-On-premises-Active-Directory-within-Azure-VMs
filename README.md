@@ -70,6 +70,14 @@ After logging back into the VM (Win 2022) on the Server Manager there will be a 
 <P> <img width="456" alt="Image" src="https://github.com/user-attachments/assets/d61ba61b-9d32-4111-a48d-92e0c362fc53" </P>
 <br />
 
+<p>
+ I Added a New Forest because we didn't have any pre-extisting ones that I could've added a Controller or another Domain to. Then named it and provide a password (Copy password into a Notepad/text.file) 
+
+ Note: A Forest can hold multiple Domains in it's infrastructure.
+</p>
+
+<p> <img src=" </p>
+
 <p> <img src="https://github.com/user-attachments/assets/0ae447f3-516d-430e-80a9-90077f3f5a45"
 </p>
 <p>
