@@ -76,7 +76,7 @@ After logging back into the VM (Win 2022) on the Server Manager there will be a 
  Note: A Forest can hold multiple Domains in it's infrastructure.
 </p>
 
-<p> <img src=" </p>
+<p> <img src="https://github.com/user-attachments/assets/49fbdcc9-7876-4a07-8e46-b96d96e1bf6b" </p>
 
 <P> <h4> Continue on... </h4></P>
 
