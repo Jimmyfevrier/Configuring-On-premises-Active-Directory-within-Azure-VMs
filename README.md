@@ -82,5 +82,10 @@ After logging back into the VM (Win 2022) on the Server Manager there will be a 
 </p>
 <p>
 Lastly after all the installation has been completed, I restarted the VM (win 2022). Congrats! Active Dictory should be successfully installed. 
+
+- Now I remotely Logged back into VM but using the Domain name I named it "\" username for VM (win 2022) and Password I set for the Domain, just as shown in the example below. 
 </p>
 <br />
+<p>
+
+</p>
