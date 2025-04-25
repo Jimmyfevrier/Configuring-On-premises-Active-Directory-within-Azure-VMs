@@ -34,14 +34,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h3> Open a VM using Windows 2022 </h3>
 
 <p>
- <h4> Step 1: Create VMs </h4>
+ <h4> Create VMs </h4>
   - From my Azure Subscription, I created a Resource Group. Then create a VM (Virtual Machine) with at least one VM running Windows 2022. 
   
   - I created 1 Vm running Window 2022 for the Main Domain and 1 VM running Windows 10 to connect to the Domain and test ipconfig /all to ensure that both IP Address matches with the private server. Once I was completed Log into BOTH Windows and navigated to Windows 2022.
 
     Note: will need at least one more VM to connect to the VM running Window 2022 (at as Domain).
 
-<h4> Step 2: Remote Access Vms </h4>
+<h4>Remote Access VMs </h4>
 
 - I remote access the VMs on my Macbook Pro using the Microsoft Remote Desktop App.
 </p>
@@ -93,9 +93,9 @@ Lastly after all the installation has been completed, I restarted the VM (win 20
 </p>
 
 <p> 
-<h4> Create a Domain Admin user within the domain </h4>
+<h2> Add Users to the Active Directory Users and Computers (ADUC) </h2>
 —
-Find Active Directory Users and Computers (ADUC) within the Windows Menu, I got to create an Organizational Unit (OU) called “_EMPLOYEES” and another called “_ADMINS”
+In finding Active Directory Users and Computers (ADUC) within the Windows Menu, I got to create an Organizational Unit (OU) called “_EMPLOYEES” and another called “_ADMINS”
 </p> <p> <img width="787" alt="Image" src="https://github.com/user-attachments/assets/8355ad64-20b9-498c-8631-f50feec8b6d0" /> </p>
 
 <p>
@@ -106,8 +106,22 @@ Log out / close the connection to DC-1 and log back in as “mydomain.com\jane_a
 <p> <img width="736" alt="Image" src="https://github.com/user-attachments/assets/aa2e3873-214f-41bf-a94f-3d49f77ec978" /> </p>
 
 I went into User jane_admin as your admin account, then Open PowerShell_ise as an administrator
-Create a new File and paste the contents of the script into it
+Create a new File and paste the contents of the [script](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) into it
 Run the script and observe the accounts being created which generated about a thousand fake Users within the _EMPLOYEES folder that was created. 
-When finish then I logged into Client-1 with one of the accounts (take note of the password in the scrip.
+When finish then I logged into Client-1 with one of the accounts (take note of the password in the script.)
 
 </p>
+
+<p> <img width="428" alt="Image" src="https://github.com/user-attachments/assets/e83e417b-b16d-43b7-811b-a4a5bf159494" /> </p>
+
+
+<p><h2> Grouping Policy </h2></p>
+<br />
+
+<p> Grouping Policy help make policies and restrictions by setting terms to a group of users/computer instead an individual.
+- [How To Group](https://docs.google.com/document/d/1msUMWaPDMR1hPYxzGOlgN4KpUjnyyYEv3vvOQXkSpLQ/edit) 
+
+I logged off DC-1 VM and used one of the created Users account reenact multiple failed password attempts. Grouping allowed me to set a limit to how many times a User can fail to log into their account, how many how long their password can remain on the system before reset required, and etc. </p>
+
+
+
