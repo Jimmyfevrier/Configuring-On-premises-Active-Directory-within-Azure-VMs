@@ -70,7 +70,7 @@ After logging back into the VM (Win 2022) on the Server Manager there will be a 
 <P> <img width="456" alt="Image" src="https://github.com/user-attachments/assets/d61ba61b-9d32-4111-a48d-92e0c362fc53" </P>
 <br />
 
-<p> <img src="https://i.imgur.com/DJmEXEB.png](https://github.com/user-attachments/assets/69e8a42c-efae-4da2-afc6-caa8571b02bd)" 
+<p> <img src="https://github.com/user-attachments/assets/0ae447f3-516d-430e-80a9-90077f3f5a45"
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
