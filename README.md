@@ -123,5 +123,5 @@ When finish then I logged into Client-1 with one of the accounts (take note of t
 
 I logged off DC-1 VM and used one of the created Users account reenact multiple failed password attempts. Grouping allowed me to set a limit to how many times a User can fail to log into their account, how many how long their password can remain on the system before reset required, and etc. </p>
 
-
+<p> <img width="858" alt="Image" src="https://github.com/user-attachments/assets/6486662f-8f52-4d7c-9940-fdbe75baf0c1" /> </p>
 
