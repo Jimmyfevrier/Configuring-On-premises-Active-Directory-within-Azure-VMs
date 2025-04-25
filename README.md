@@ -26,8 +26,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Open a VM using Windows 2022
 - Installaltion
-- Step 3
-- Step 4
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -37,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
  <h4> Step 1: Create VMs </h4>
   - From my Azure Subscription, I created a Resource Group. Then create a VM (Virtual Machine) with at least one VM running Windows 2022. 
   
-  - I created 1 Vm running Window 2022 and 1 VM running Windows 10. Once I was completed Log into BOTH Windows and navigated to Windows 2022.
+  - I created 1 Vm running Window 2022 for the Main Domain and 1 VM running Windows 10 to connect to the Domain and test ipconfig /all to ensure that both IP Address matches with the private server. Once I was completed Log into BOTH Windows and navigated to Windows 2022.
 
     Note: will need at least one more VM to connect to the VM running Window 2022 (at as Domain).
 
