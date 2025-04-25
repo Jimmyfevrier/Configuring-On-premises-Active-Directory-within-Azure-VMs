@@ -123,7 +123,7 @@ When finish then I logged into Client-1 with one of the accounts (take note of t
 
 I logged off DC-1 VM and used one of the created Users account reenact multiple failed password attempts. Grouping allowed me to set a limit to how many times a User can fail to log into their account, how many how long their password can remain on the system before reset required, and etc. </p>
 
-<p> <img width="858" alt="Image" src="https://github.com/user-attachments/assets/6486662f-8f52-4d7c-9940-fdbe75baf0c1" /> </p>
+<p> <img width="650" alt="Image" src="https://github.com/user-attachments/assets/6486662f-8f52-4d7c-9940-fdbe75baf0c1" /> </p>
 
 <p> 
  - I also did a bit of troubleshooting by practicing how to Unlocking Users Account by going to the ADUC and right clicking My Domain (app) and select find and type in the Users name and select to unlock the account 
@@ -132,10 +132,11 @@ I logged off DC-1 VM and used one of the created Users account reenact multiple 
  Note: you can also Disable or Enabled Users Accounts by right clicking their names. 
 </p>
 
-<p> <img width="858" alt="Image" src="https://github.com/user-attachments/assets/f7b65992-f427-408a-b289-7e9d79e310de" /> </p>
+<p> <img width="700" alt="Image" src="https://github.com/user-attachments/assets/f7b65992-f427-408a-b289-7e9d79e310de" /> </p>
 
 <P> I also went into the Event Veiwer app to look into the security logs to see how many failed attempts the Users did to long on. With common Users it will need the Admin to log into Event Viewer to see details about Users security attempts. </P>
 
+<P> <img width="858" alt="Image" src="https://github.com/user-attachments/assets/b18caba8-eb28-448b-9828-87c9dff93cd2" /> </P> <br />
 
 
 
