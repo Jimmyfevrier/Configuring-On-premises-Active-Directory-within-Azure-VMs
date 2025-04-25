@@ -54,18 +54,18 @@ Note: Remember to save all passwords in a notepad or text.file </p>
  From the Server Manager I click on the Manage tool to Add Roles and Features and begone to install  the Active Directory features as shown below. 
  </p>
 
-<p><img src="https://github.com/user-attachments/assets/5f300f6b-cdba-49c0-870e-6866cbedbb9a"
+<p> <img width="600" alt="Image" src="https://github.com/user-attachments/assets/5f300f6b-cdba-49c0-870e-6866cbedbb9a"
 </p>
 <p>
 Before installing the Active Directory feature make sure to check the box for automatic restart after installation is completed. If the VM doesn't restart then manuelly restart the VM as shown below:
 </p>
 
-<p> <img src="https://github.com/user-attachments/assets/9dad16dc-e234-4b54-b605-14d11b51ecc0" </p>
+<p> <img width="600" alt="Image" src="https://github.com/user-attachments/assets/9dad16dc-e234-4b54-b605-14d11b51ecc0" </p>
 <br />
 <p>
 After logging back into the VM (Win 2022) on the Server Manager there will be a white flag with an Alert on it. Click on the "Promote this server into a Domain Controller".
 </p>
-<P> <img width="456" alt="Image" src="https://github.com/user-attachments/assets/d61ba61b-9d32-4111-a48d-92e0c362fc53" </P>
+<P> <img width="600" alt="Image" src="https://github.com/user-attachments/assets/d61ba61b-9d32-4111-a48d-92e0c362fc53" </P>
 <br />
 
 <p>
@@ -74,11 +74,11 @@ After logging back into the VM (Win 2022) on the Server Manager there will be a 
  Note: A Forest can hold multiple Domains in it's infrastructure.
 </p>
 
-<p> <img src="https://github.com/user-attachments/assets/49fbdcc9-7876-4a07-8e46-b96d96e1bf6b" </p>
+<p> <img width="600" alt="Image" src="https://github.com/user-attachments/assets/49fbdcc9-7876-4a07-8e46-b96d96e1bf6b" </p>
 
 <P> <h4> Continue on... </h4></P>
 
-<p> <img src="https://github.com/user-attachments/assets/0ae447f3-516d-430e-80a9-90077f3f5a45"
+<p> <img width="600" alt="Image" src="https://github.com/user-attachments/assets/0ae447f3-516d-430e-80a9-90077f3f5a45"
 </p>
 <p>
 Lastly after all the installation has been completed, I restarted the VM (win 2022). Congrats! Active Dictory should be successfully installed. 
@@ -87,5 +87,5 @@ Lastly after all the installation has been completed, I restarted the VM (win 20
 </p>
 <br />
 <p>
-
+<img width="898" alt="Image" src="https://github.com/user-attachments/assets/c67306f7-236a-4a78-a45d-0cf5643c7b42" />
 </p>
