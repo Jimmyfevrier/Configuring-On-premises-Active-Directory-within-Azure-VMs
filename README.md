@@ -96,9 +96,12 @@ Lastly after all the installation has been completed, I restarted the VM (win 20
 Find Active Directory Users and Computers (ADUC) within the Windows Menu, I got to create an Organizational Unit (OU) called “_EMPLOYEES” and another called “_ADMINS”
 </p> <p> <img width="787" alt="Image" src="https://github.com/user-attachments/assets/8355ad64-20b9-498c-8631-f50feec8b6d0" /> </p>
 
-
+<p>
 Then I created a new employee named “Jane Doe” (same password) with the username of “jane_admin” / Cyberlab123!
 Add jane_admin to the “Domain Admins” Security Group
-Log out / close the connection to DC-1 and log back in as “mydomain.com\jane_admin”
+Log out / close the connection to DC-1 and log back in as “mydomain.com\jane_admin” </p>
+
+<p> <img width="736" alt="Image" src="https://github.com/user-attachments/assets/aa2e3873-214f-41bf-a94f-3d49f77ec978" /> </p>
+
 User jane_admin as your admin account from now on
 </p>
