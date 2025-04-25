@@ -71,16 +71,18 @@ After logging back into the VM (Win 2022) on the Server Manager there will be a 
 <br />
 
 <p>
- I Added a New Forest because we didn't have any pre-extisting ones that I could've added a Controller or another Domain to. Then named it and provide a password (Copy password into a Notepad/text.file) 
+ I Added a New Forest because we didn't have any pre-extisting ones that I could've added a Controller or another Domain to. Then named the Domain and provide a password (Copy password into a Notepad/text.file) We could select older version depending on the VM model the company is using but the standard is what's recommend (win 2016v).
 
  Note: A Forest can hold multiple Domains in it's infrastructure.
 </p>
 
 <p> <img src=" </p>
 
+<P> <h4> Continue on... </h4></P>
+
 <p> <img src="https://github.com/user-attachments/assets/0ae447f3-516d-430e-80a9-90077f3f5a45"
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lastly after all the installation has been completed, I restarted the VM (win 2022). Congrats! Active Dictory should be successfully installed. 
 </p>
 <br />
