@@ -26,6 +26,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Open a VM using Windows 2022
 - Installaltion
+- Add Users to the Active Directory Users and Computers (ADUC)
+- Grouping Policy
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -103,5 +105,9 @@ Log out / close the connection to DC-1 and log back in as “mydomain.com\jane_a
 
 <p> <img width="736" alt="Image" src="https://github.com/user-attachments/assets/aa2e3873-214f-41bf-a94f-3d49f77ec978" /> </p>
 
-User jane_admin as your admin account from now on
+I went into User jane_admin as your admin account, then Open PowerShell_ise as an administrator
+Create a new File and paste the contents of the script into it
+Run the script and observe the accounts being created which generated about a thousand fake Users within the _EMPLOYEES folder that was created. 
+When finish then I logged into Client-1 with one of the accounts (take note of the password in the scrip.
+
 </p>
