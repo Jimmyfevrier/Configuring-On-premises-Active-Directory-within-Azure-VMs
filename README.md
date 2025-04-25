@@ -127,5 +127,15 @@ I logged off DC-1 VM and used one of the created Users account reenact multiple 
 
 <p> 
  - I also did a bit of troubleshooting by practicing how to Unlocking Users Account by going to the ADUC and right clicking My Domain (app) and select find and type in the Users name and select to unlock the account 
- - You can also 
+ - You can also unlock and reset the account by right clicking the Users name and creating a Password for them. 
+
+ Note: you can also Disable or Enabled Users Accounts by right clicking their names. 
 </p>
+
+<p> <img width="858" alt="Image" src="https://github.com/user-attachments/assets/f7b65992-f427-408a-b289-7e9d79e310de" /> </p>
+
+<P> I also went into the Event Veiwer app to look into the security logs to see how many failed attempts the Users did to long on. With common Users it will need the Admin to log into Event Viewer to see details about Users security attempts. </P>
+
+
+
+
